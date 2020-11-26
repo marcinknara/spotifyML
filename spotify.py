@@ -10,8 +10,8 @@ from sklearn.metrics import f1_score, precision_score, recall_score, roc_auc_sco
 
 # Spotify track genre classifier
 
-CLIENT_ID = "b665f59008ab415c927afbc0f00b44b1"
-CLIENT_SECRET = "84f8a61e253a4a0db91a1f50e8a0a9f1"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 token = spotipy.oauth2.SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 access_token = token.get_access_token()
